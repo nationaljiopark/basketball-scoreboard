@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+}
+h3 {
+  font-size: clamp(16px, 3vw, 28px);
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+
+  max-width: 700px;
+
+  max-height: 300px;
+  text-align: center;
+  background-color: orangered;
+  border-radius: 20px;
+  border-color: rgb(167, 167, 167);
+  border-width: 10px;
+  border-style: solid;
+}
+.box {
+  margin: 0 20px;
+}
+#away-score,
+#home-score {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+}
+button {
+  background-color: black;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-size: clamp(12px, 2vw, 20px);
+  width: clamp(35px, 5vw, 50px);
+}
+#reset {
+  width: 100px;
+  background-color: red;
+  border-color: black;
+}

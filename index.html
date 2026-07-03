@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h3>Neon Wolves</h3>
+        <p id="home-score">0</p>
+        <div>
+          <button onclick="homeplus1()">+1</button>
+          <button onclick="homeplus2()">+2</button>
+          <button onclick="homeplus3()">+3</button>
+        </div>
+      </div>
+
+      <div class="box">
+        <h3>Shadow Hawks</h3>
+        <p id="away-score">0</p>
+        <div>
+          <button onclick="awayplus1()">+1</button>
+          <button onclick="awayplus2()">+2</button>
+          <button onclick="awayplus3()">+3</button>
+        </div>
+      </div>
+    </div>
+    <div><button id="reset" onclick="reset()">Reset</button></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
